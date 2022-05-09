@@ -1,4 +1,33 @@
-h1 {text-align: center; font-style: oblique; font-family: 'Times New Roman', Times, serif; font-weight: lighter;}
-body {background-color: darkkhaki; background-image: url(background.png); background-position:center; background-repeat: no-repeat; background-size:auto; background-blend-mode:color-dodge;}
+h1 {text-align: center; font-style: oblique; font-family: 'Times New Roman'; font-weight: lighter; text-shadow:1.3px 1.3px black;}
+
+
+
+.div0 {border:1px solid black; border-radius: 20px; width: 40%;
+background-image: radial-gradient(white, white, aqua);
+animation-name: Heading;
+animation-duration: 3s;
+position: relative;
+}
+
+@keyframes Heading {
+    from {left: 0px; background-image: radial-gradient(white, white, aqua);} to{left: 300px; background-image: radial-gradient(aqua, white, white);}
+}
+
+body {background-color: darkkhaki; background-image: url(background.png); background-position:center; background-repeat: no-repeat; background-size: 200% 100%; background-blend-mode:color-dodge;}
+
 #textid {border: 1px solid red; border-radius: 7px; padding: 4px;}
+
 b { font-size:medium; font-style: italic; font-weight:bolder;}
+
+table, th, td{ border: 0.5px solid black; border-collapse: collapse; padding: 5px;}
+
+.div1{font-size: 28px; color:red; text-shadow: 0.5px 0.5px aqua; border: 0.5px solid black; border-radius: 15px; width: 50%; text-align:center; padding: 40px; margin:auto;
+background-image: url(mine.jpg); background-size: cover; background-repeat: no-repeat; opacity: 0.5}
+.div1:hover{opacity: 1;}
+
+img{border: 1px solid black; border-radius: 10px; box-shadow: 5px 5px darkgray; display: block; width: 50%; height: auto; margin-right: auto; margin-left: auto;}
+
+label{text-shadow: 0.5px 0.5px black;}
+
+::placeholder{font-style: italic; font-size: smaller; font-family: 'geneva';}
+
